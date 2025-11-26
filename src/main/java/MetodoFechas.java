@@ -1,13 +1,21 @@
 
-public static boolean MetodoFechas ( int anio) {
+public static boolean MetodoFechas ( int año) {
 
-	boolean bisiesto = false;
+	boolean bisiesto;
 	
-	if (anio<0) {
+	if (año<0) {
 		throw new IllegalArgumentException("El año no puede ser negativo");
 	}
 	
-	if (anio%4 !=0){
+	if (año%4 !=0){
 		bisiesto= false;
+	} else {
+		if (año%400==0) {
+			bisiesto= true;
+		}else {
+			bisiesto= false;
+		}
 	}
+	return bisiesto;
+}
 }
