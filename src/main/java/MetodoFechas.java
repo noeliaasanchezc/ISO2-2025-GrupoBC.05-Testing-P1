@@ -1,5 +1,6 @@
+public class MetodoFechas{
 
-public static boolean MetodoFechas ( int año) {
+public static boolean verBisiesto( int año) {
 
 	boolean bisiesto;
 	
@@ -17,5 +18,9 @@ public static boolean MetodoFechas ( int año) {
 		}
 	}
 	return bisiesto;
+}
+
+public static void main(String [] args) {
+
 }
 }
