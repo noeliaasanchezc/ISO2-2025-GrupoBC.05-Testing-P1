@@ -20,7 +20,4 @@ public static boolean verBisiesto( int año) {
 	return bisiesto;
 }
 
-public static void main(String [] args) {
-
-}
 }
