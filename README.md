@@ -9,3 +9,4 @@ La planificación de tareas será:
 | **Problema 2** | Prácticas de laboratorio | Implementar programa   | Ejercicio teórico      |
 | **Problema 3** | Ejercicio teórico      | Prácticas de laboratorio | Implementar programa   |
 
+Enlace a nuestra WIKI --> https://github.com/Lucillee05/ISO25-ISO2-BC5/wiki
