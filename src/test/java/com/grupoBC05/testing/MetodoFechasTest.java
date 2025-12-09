@@ -8,7 +8,6 @@ import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 import java.io.PrintStream;
 
-
 class MetodoFechasTest {
 
     // Año divisible por 400 → bisiesto
