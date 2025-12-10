@@ -8,7 +8,7 @@ public static boolean verBisiesto( int año) {
 	if (año<1866) {
 		throw new IllegalArgumentException("Antes del 1866 no existían los años bisiestos");
 	}
-	
+
 	 if (año % 4 != 0) {
 	        bisiesto = false;
 	    } else if (año % 100 != 0) { 
