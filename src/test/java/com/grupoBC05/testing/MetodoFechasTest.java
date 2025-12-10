@@ -68,7 +68,7 @@ class MetodoFechasTest {
         String salida = out.toString();
         assertTrue(salida.contains("El año es bisiesto"));
     }
-
+    
     @Test
     void testMainNoBisiesto() {
         // Simula introducir "2019"
