@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd>
+   <duplication lines="36" tokens="152">
+      <file begintoken="0" column="1" endcolumn="1" endline="38" endtoken="151" line="3"
+            path="C:\Users\Usuario\eclipse-workspace\ISO2-2025-GrupoBC.05-Testing-P1\src\main\java\com\grupoBC05\testing\MetodoFechas.java"/>
+      <file begintoken="153" column="1" endcolumn="1" endline="37" endtoken="304" line="2"
+            path="C:\Users\Usuario\eclipse-workspace\ISO2-2025-GrupoBC.05-Testing-P1\src\main\java\MetodoFechas.java"/>
+      <codefragment><![CDATA[public class MetodoFechas{
+
+public static boolean verBisiesto( int año) {
+	
+	boolean bisiesto;
+	
+	if (año<1866) {
+		throw new IllegalArgumentException("Antes del 1866 no existían los años bisiestos");
+	}
+	
+	 if (año % 4 != 0) {
+	        bisiesto = false;
+	    } else if (año % 100 != 0) { 
+	        bisiesto = true;
+	    } else if (año % 400 == 0) { 
+	        bisiesto = true;
+	    } else {
+	        bisiesto = false;
+	    }
+	return bisiesto;
+}
+public static void main(String[] args) {
+	Scanner TECLADO= new Scanner(System.in);
+	System.out.println("meta usted el año en el que estamos");
+	int fecha = TECLADO.nextInt();
+	
+	boolean bisiesto= verBisiesto(fecha);
+	
+	if (bisiesto==true) {
+		System.out.println("El año es bisiesto");
+		
+	}else {
+		System.out.println("El año no es bisiesto");
+	}
+}
+}]]></codefragment>
+   </duplication>
+</pmd-cpd>
