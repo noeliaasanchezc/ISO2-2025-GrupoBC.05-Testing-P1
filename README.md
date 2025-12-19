@@ -1,8 +1,9 @@
 # ISO2-2025-GrupoBC.05-Testing-P1
 
-La planificación de tareas será:  
+ La planificación de tareas será:  
  # 🗂️ Planificación de Tareas
-| 📌 Problema | 👥 Pareja 1: Lucia y Carlos            | 👥 Pareja 2: Mariam y Manuel            | 👥 Pareja 3: Noelia y Roberto            |
+
+| 📌 Problema | 👥 Pareja 1            | 👥 Pareja 2            | 👥 Pareja 3            |
 |-------------|------------------------|------------------------|------------------------|
 | **Problema 1** | Implementar programa   | Ejercicio teórico      | Prácticas de laboratorio |
 | **Problema 2** | Prácticas de laboratorio | Implementar programa   | Ejercicio teórico      |
