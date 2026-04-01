@@ -1,5 +1,11 @@
-import java.util.*;
-public class MetodoFechas{
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd>
+   <duplication lines="36" tokens="152">
+      <file begintoken="0" column="1" endcolumn="1" endline="38" endtoken="151" line="3"
+            path="C:\Users\Usuario\eclipse-workspace\ISO2-2025-GrupoBC.05-Testing-P1\src\main\java\com\grupoBC05\testing\MetodoFechas.java"/>
+      <file begintoken="153" column="1" endcolumn="1" endline="37" endtoken="304" line="2"
+            path="C:\Users\Usuario\eclipse-workspace\ISO2-2025-GrupoBC.05-Testing-P1\src\main\java\MetodoFechas.java"/>
+      <codefragment><![CDATA[public class MetodoFechas{
 
 public static boolean verBisiesto( int año) {
 	
@@ -8,7 +14,7 @@ public static boolean verBisiesto( int año) {
 	if (año<1866) {
 		throw new IllegalArgumentException("Antes del 1866 no existían los años bisiestos");
 	}
-
+	
 	 if (año % 4 != 0) {
 	        bisiesto = false;
 	    } else if (año % 100 != 0) { 
@@ -34,4 +40,6 @@ public static void main(String[] args) {
 		System.out.println("El año no es bisiesto");
 	}
 }
-}
+}]]></codefragment>
+   </duplication>
+</pmd-cpd>
